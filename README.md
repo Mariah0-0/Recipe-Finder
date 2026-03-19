@@ -7,7 +7,7 @@ A React TypeScript application for discovering recipes using [TheMealDB](https:/
 1. Clone the repository
 
 ```bash
-git clone <your-repo-url>
+git clone https://github.com/Mariah0-0/Recipe-Finder.git
 cd recipe-finder
 ```
 
