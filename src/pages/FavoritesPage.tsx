@@ -28,7 +28,7 @@ const FavoritesPage = ({ favorites, setFavorites }: IFavoritesProps) => {
         const meals = await Promise.all(
           favorites.map(async (id) => {
             const response = await axios.get(
-              `https:,www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`,
+              `https://www.themealdb.com/api/json/v1/1/lookup.php?i=${id}`,
             );
             return response.data.meals?.[0];
           }),
