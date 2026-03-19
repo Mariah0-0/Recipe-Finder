@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,100,200,300,400,500,600,700,800,900;1,100,200,300,400,500,600,700,800,900&display=swap");
+@import "tailwindcss";
+
+:root {
+  --accent: #8b2030;
+  --accent-hover: #791b29;
+  --hover: #e8e8e8;
+  --bg: #f0f0f0;
+  --sans: system-ui, "Segoe UI", Roboto, sans-serif;
+  --heading: system-ui, "Segoe UI", Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+}
+
+h1 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 900;
+  font-style: normal;
+}
+
+h2 {
+  font-family: "Playfair Display", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
+
+body {
+  background-color: var(--bg);
+}
+
+@layer base {
+  body {
+    @apply text-gray-800;
+  }
+}
